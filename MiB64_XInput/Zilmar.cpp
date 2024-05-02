@@ -16,9 +16,9 @@ http://www.emutalk.net/cgi-bin/ikonboard/ikonboard.cgi?s=3bd272222f66ffff;act=SF
 #include "Input.h"
 
 #ifdef _DEBUG
-#define PLUGIN_NAME "Project64 Legacy XInput Debug "
+#define PLUGIN_NAME "MiB64 XInput Debug "
 #else
-#define PLUGIN_NAME "Project64 Legacy XInput "
+#define PLUGIN_NAME "MiB64 XInput "
 #endif
 
 #define VERSION  "Ver.2024:1.1 " __DATE__ " " __TIME__

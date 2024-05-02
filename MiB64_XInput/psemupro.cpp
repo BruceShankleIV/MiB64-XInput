@@ -24,8 +24,8 @@ const u32 build    = 1;
 const u32 versionPS1 = (emupro::PLUGIN_VERSION << 16) | (revision << 8) | build;
 const u32 versionPS2 = (0x02 << 16) | (revision << 8) | build;
 
-char libraryName[]      = "Project64 Legacy XInput Plugin"; // rewrite your plug-in name
-char PluginAuthor[]     = "KrossX / PJ64LegacyTeam"; // rewrite your name
+char libraryName[]      = "MiB64 XInput Plugin"; // rewrite your plug-in name
+char PluginAuthor[]     = "KrossX / MiB64Team"; // rewrite your name
 
 ////////////////////////////////////////////////////////////////////////
 // stuff to make this a true PDK module
@@ -197,7 +197,7 @@ DllExport s32 CALLBACK PADconfigure()
 
 DllExport void CALLBACK PADabout()
 {
-	ShowDialog(L"Project64 Legacy XInput plugin - KrossX © 2012", L"About...");
+	ShowDialog(L"MiB64 XInput plugin - KrossX © 2012", L"About...");
 }
 
 ////////////////////////////////////////////////////////////////////////
