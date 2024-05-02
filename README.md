@@ -1,4 +1,4 @@
-PJ64 Legacy XInput
+MiB64 XInput
 ===============================================================================
 
 Main repo: https://github.com/MiB64/MiB64-XInput
